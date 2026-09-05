@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sofía — Instrucciones para la Eliminación de Datos</title>
+<meta name="description" content="Cómo solicitar la eliminación de tus datos personales en Sofía, plataforma operada por Kinesis.">
+<style>
+:root{
+  --navy:#1E2761; --ice:#CADCFC; --muted:#44546A; --card:#F4F7FC;
+  --text:#222; --rule:#CADCFC; --bg:#fff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Calibri,Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.65; font-size:16px;
+}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px 80px}
+header.cover{
+  background:var(--navy); color:#fff; text-align:center;
+  padding:72px 24px 56px; margin-bottom:48px;
+}
+header.cover .brand{
+  font-size:clamp(38px,7vw,58px); font-weight:800; letter-spacing:.06em; margin:0 0 14px;
+}
+header.cover h1{
+  font-size:clamp(20px,3.4vw,28px); font-weight:600; margin:0 0 18px; line-height:1.35;
+}
+header.cover p{text-align:center}
+header.cover .sub{color:var(--ice); font-style:italic; margin:0 0 26px; font-size:15px}
+header.cover .meta{font-size:14px;color:var(--ice);margin:0}
+h2.sec{
+  color:var(--navy); font-size:22px; margin:44px 0 14px; padding-bottom:8px;
+  border-bottom:2px solid var(--rule); scroll-margin-top:20px;
+}
+h3.sub{color:var(--navy); font-size:17px; margin:28px 0 10px}
+p{margin:0 0 16px; text-align:justify}
+ul,ol{margin:0 0 18px; padding-left:24px}
+li{margin:0 0 8px}
+.note{
+  background:var(--card); border:1px solid var(--rule); border-left:4px solid var(--navy);
+  border-radius:6px; padding:14px 18px; margin:20px 0 24px;
+  font-style:italic; font-size:14.5px; color:var(--muted);
+}
+.note p{margin:0;text-align:left}
+.steps{
+  background:var(--card); border:1px solid var(--rule); border-radius:10px;
+  padding:8px 26px 22px; margin:24px 0;
+}
+.steps li{margin:14px 0}
+table{width:100%;border-collapse:collapse;margin:18px 0 26px;font-size:15px}
+thead th{background:var(--navy);color:#fff;text-align:left;padding:10px 12px;font-weight:600}
+tbody td{padding:10px 12px;border-bottom:1px solid #E4E9F2;vertical-align:top}
+tbody tr:nth-child(even){background:var(--card)}
+footer{
+  margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);
+  font-size:13px;color:var(--muted);text-align:center;
+}
+@media (max-width:640px){
+  p{text-align:left}
+  table{display:block;overflow-x:auto}
+}
+</style>
+</head>
+<body>
+<header class="cover">
+  <p class="brand">SOFÍA</p>
+  <p class="sub" style="margin-bottom:18px">una plataforma de Kinesis</p>
+  <h1>Instrucciones para la Eliminación de Datos</h1>
+  <p class="meta">Versión 1.0 — Agosto 2026</p>
+</header>
+<div class="wrap">
+<main>
+<h2 class="sec">1. Alcance de esta página</h2>
+<p>Esta página explica cómo cualquier persona —Paciente, cliente final o usuario de los canales de mensajería de Sofía, incluyendo quienes reciben recordatorios a través de WhatsApp— puede solicitar la eliminación de sus Datos Personales tratados por la Plataforma Sofía, operada por Kinesis. Complementa a la Política de Privacidad, donde se detallan los plazos y excepciones de conservación de la información.</p>
+
+<h2 class="sec">2. Antes de solicitar la eliminación</h2>
+<p>El profesional, clínica o negocio (el "Cliente" de Sofía) con quien agendaste tu cita es quien mantiene la relación directa contigo y la responsabilidad primaria sobre tus datos. Por eso, el primer paso recomendado es dirigir tu solicitud directamente a esa persona o negocio, ya que puede resolverla de forma más rápida.</p>
+<p>Si el Cliente no atiende tu solicitud, ya no existe relación con él, o tu solicitud se refiere específicamente al tratamiento que Kinesis realiza por cuenta propia (por ejemplo, el envío de recordatorios por WhatsApp o Telegram), puedes dirigirte directamente a Kinesis siguiendo los pasos a continuación.</p>
+
+<h2 class="sec">3. Cómo solicitar la eliminación de tus datos</h2>
+<ol class="steps">
+<li><strong>Contáctanos por cualquiera de los canales de la sección 5.</strong> Indica tu nombre completo, el profesional o negocio con el que agendaste la cita (si aplica), y el canal por el que recibiste comunicaciones (correo, WhatsApp o Telegram).</li>
+<li><strong>Verificación de identidad.</strong> Para proteger tu información, podemos pedirte datos adicionales que confirmen que la solicitud proviene del titular de los datos.</li>
+<li><strong>Revisión y coordinación.</strong> Kinesis dará seguimiento a tu solicitud y, cuando corresponda, la coordinará con el Cliente (profesional o negocio) involucrado.</li>
+<li><strong>Confirmación.</strong> Una vez procesada la solicitud, te confirmaremos por el mismo canal que la información fue eliminada o anonimizada, salvo que apliquen las excepciones descritas en la sección 4.</li>
+</ol>
+
+<h2 class="sec">4. Excepciones: qué no se elimina de inmediato</h2>
+<p>Al igual que la mayoría de plataformas que gestionan citas médicas y profesionales, Kinesis debe conservar cierta información por obligación legal, contable, fiscal o de expediente clínico, aun después de recibir una solicitud de eliminación:</p>
+<ul>
+<li>Información clínica y expediente del Paciente: conforme al estándar aplicable a expedientes clínicos en Honduras, con un mínimo de cinco (5) años desde el último acto médico.</li>
+<li>Documentos fiscales y de facturación: por el plazo exigido por la normativa tributaria hondureña.</li>
+<li>Registros de mensajes de datos relacionados con citas: conforme al artículo 11 de la Ley sobre Comercio Electrónico (Decreto 149-2014), por su valor probatorio.</li>
+<li>Datos que Kinesis deba conservar para la defensa de reclamaciones legales en curso.</li>
+</ul>
+<p>Fuera de estas excepciones, tus Datos Personales serán eliminados o anonimizados de forma que no permitan volver a identificarte.</p>
+
+<h2 class="sec">5. Canales de contacto</h2>
+<table><thead><tr><th>Canal</th><th>Detalle</th></tr></thead><tbody>
+<tr><td>Responsable</td><td>Kinesis (operador de la Plataforma Sofía)</td></tr>
+<tr><td>Correo electrónico</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Número de teléfono / WhatsApp</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Domicilio físico</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Tiempo estimado de respuesta</td><td>[por definir por Kinesis]</td></tr>
+</tbody></table>
+<aside class="note"><p>Nota para Kinesis: completa esta tabla con datos reales antes de publicar esta página — Meta revisa que esta información sea funcional y verificable al momento de aprobar el caso de uso de WhatsApp.</p></aside>
+
+<h2 class="sec">6. Otros derechos disponibles</h2>
+<p>Además del derecho a solicitar la eliminación, también puedes ejercer tu derecho de acceso (conocer qué datos tenemos sobre ti), de rectificación (corregir datos inexactos) y de oposición (por ejemplo, a que tus datos anonimizados se usen con fines estadísticos, o a revocar tu aceptación de un canal de comunicación como WhatsApp). Estos derechos se detallan en la Política de Privacidad de Sofía.</p>
+
+<p>Este documento fue preparado como base de trabajo. Anthropic y Claude no constituyen un despacho legal y este material no sustituye asesoría jurídica profesional. Se solicita la revisión y validación de un abogado hondureño antes de su publicación oficial.</p>
+</main>
+<footer>
+  <p>Sofía · Instrucciones para la Eliminación de Datos</p>
+</footer>
+</div>
+</body>
+</html>
