@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sofía — Política de Privacidad</title>
+<meta name="description" content="Política de Privacidad y Protección de Datos Personales de Sofía, plataforma operada por Kinesis.">
+<style>
+:root{
+  --navy:#1E2761; --ice:#CADCFC; --muted:#44546A; --card:#F4F7FC;
+  --text:#222; --rule:#CADCFC; --bg:#fff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Calibri,Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.65; font-size:16px;
+}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px 80px}
+header.cover{
+  background:var(--navy); color:#fff; text-align:center;
+  padding:72px 24px 56px; margin-bottom:48px;
+}
+header.cover .brand{
+  font-size:clamp(38px,7vw,58px); font-weight:800; letter-spacing:.06em; margin:0 0 14px;
+}
+header.cover h1{
+  font-size:clamp(20px,3.4vw,28px); font-weight:600; margin:0 0 18px; line-height:1.35;
+}
+header.cover p{text-align:center}
+header.cover .sub{color:var(--ice); font-style:italic; margin:0 0 26px; font-size:15px}
+header.cover .meta{font-size:14px;color:var(--ice);margin:0}
+header.cover .scope{font-size:13px;color:rgba(255,255,255,.72);margin:8px auto 0;max-width:620px}
+nav.toc{
+  background:var(--card); border:1px solid var(--rule); border-radius:10px;
+  padding:22px 26px; margin-bottom:44px;
+}
+nav.toc h2{margin:0 0 12px;font-size:17px;color:var(--navy)}
+nav.toc ol{margin:0;padding-left:22px;columns:2;column-gap:32px}
+nav.toc li{margin:5px 0;break-inside:avoid}
+nav.toc a{color:var(--muted);text-decoration:none;font-size:14.5px}
+nav.toc a:hover{color:var(--navy);text-decoration:underline}
+h2.sec{
+  color:var(--navy); font-size:22px; margin:44px 0 14px; padding-bottom:8px;
+  border-bottom:2px solid var(--rule); scroll-margin-top:20px;
+}
+h3.sub{color:var(--navy); font-size:17px; margin:28px 0 10px}
+p{margin:0 0 16px; text-align:justify}
+ul{margin:0 0 18px; padding-left:24px}
+li{margin:0 0 8px}
+.note{
+  background:var(--card); border:1px solid var(--rule); border-left:4px solid var(--navy);
+  border-radius:6px; padding:14px 18px; margin:20px 0 24px;
+  font-style:italic; font-size:14.5px; color:var(--muted);
+}
+.note p{margin:0;text-align:left}
+table{width:100%;border-collapse:collapse;margin:18px 0 26px;font-size:15px}
+thead th{background:var(--navy);color:#fff;text-align:left;padding:10px 12px;font-weight:600}
+tbody td{padding:10px 12px;border-bottom:1px solid #E4E9F2;vertical-align:top}
+tbody tr:nth-child(even){background:var(--card)}
+footer{
+  margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);
+  font-size:13px;color:var(--muted);text-align:center;
+}
+@media (max-width:640px){
+  nav.toc ol{columns:1}
+  p{text-align:left}
+  table{display:block;overflow-x:auto}
+}
+@media print{
+  header.cover{background:#fff;color:var(--navy);padding:40px 0}
+  header.cover .sub,header.cover .meta,header.cover .scope{color:var(--muted)}
+  nav.toc{break-after:page}
+  h2.sec{break-after:avoid}
+}
+</style>
+</head>
+<body>
+<header class="cover">
+  <p class="brand">SOFÍA</p>
+  <p class="sub" style="margin-bottom:18px">una plataforma de Kinesis</p>
+  <h1>Política de Privacidad y Protección de Datos Personales</h1>
+  <p class="meta">Versión 2.2 — Agosto 2026</p>
+</header>
+<div class="wrap">
+<nav class="toc">
+  <h2>Índice</h2>
+  <ol>
+<li><a href="#seccion-1">1. Introducción y Alcance</a></li>
+<li><a href="#seccion-2">2. Definiciones</a></li>
+<li><a href="#seccion-3">3. Responsable y Encargado del Tratamiento</a></li>
+<li><a href="#seccion-4">4. Secreto Profesional Médico y Confidencialidad</a></li>
+<li><a href="#seccion-5">5. Datos que Recolectamos</a></li>
+<li><a href="#seccion-6">6. Finalidad del Tratamiento de Datos</a></li>
+<li><a href="#seccion-7">7. Compartición de Datos con Terceros</a></li>
+<li><a href="#seccion-8">8. Comunicaciones, Recordatorios y Notificaciones</a></li>
+<li><a href="#seccion-9">9. Cómo Recolectamos los Datos</a></li>
+<li><a href="#seccion-10">10. Seguridad de la Información</a></li>
+<li><a href="#seccion-11">11. Expediente Clínico: Propiedad, Custodia y Disponibilidad</a></li>
+<li><a href="#seccion-12">12. Conservación y Retención de Datos</a></li>
+<li><a href="#seccion-13">13. Consentimiento Informado Clínico</a></li>
+<li><a href="#seccion-14">14. Titularidad y Control de los Datos del Paciente</a></li>
+<li><a href="#seccion-15">15. Derechos de los Titulares</a></li>
+<li><a href="#seccion-16">16. Cookies, Transferencias Internacionales y Menores de Edad</a></li>
+<li><a href="#seccion-17">17. Contacto y Atención de Quejas</a></li>
+<li><a href="#seccion-18">18. Marco Legal Aplicable</a></li>
+<li><a href="#seccion-19">19. Aceptación de esta Política</a></li>
+<li><a href="#seccion-20">20. Cambios a esta Política</a></li>
+<li><a href="#seccion-21">21. Vigencia</a></li>
+  </ol>
+</nav>
+<main>
+<h2 class="sec" id="seccion-1">1. Introducción y Alcance</h2>
+<p>Sofía (en adelante, "Sofía" o "la Plataforma") es un servicio de software como servicio (SaaS) para la gestión y agendamiento de citas, desarrollado y operado por Kinesis, empresa digital constituida en Honduras (en adelante, "Kinesis" o "nosotros"). Kinesis es la persona jurídica responsable de la Plataforma y el punto de contacto legal para todo lo relacionado con esta Política; Sofía es el nombre comercial del producto con el que interactúan los profesionales y sus pacientes.</p>
+<p>La Plataforma inicia enfocada en el sector salud (médicos independientes y clínicas), y está diseñada para extenderse posteriormente a otros rubros y profesionales que trabajan bajo cita previa, tales como dentistas, psicólogos, nutricionistas, abogados, salones de belleza, barberías y otros negocios o profesionales de servicios con agendamiento de citas.</p>
+<p>En consecuencia, cuando esta Política se refiere al "Cliente" como médico o clínica, y al "Paciente" como la persona que agenda una cita, dichas referencias aplican de forma análoga a los profesionales y negocios de otros rubros que se incorporen a la Plataforma y a sus respectivos clientes o usuarios finales. Las disposiciones especiales sobre datos de salud y secreto profesional médico aplicarán únicamente cuando el Cliente pertenezca al sector salud o cuando la información tratada tenga esa naturaleza.</p>
+<p>Esta Política describe qué información personal se recolecta a través de Sofía, de quién, con qué propósito, cómo se protege, por cuánto tiempo se conserva y cuáles son los derechos de las personas cuyos datos son tratados.</p>
+<p>Esta Política se complementa con los Términos y Condiciones de Uso y con el Acuerdo de Procesamiento de Datos, que regula la relación entre el Cliente como Responsable del Tratamiento y Kinesis como Encargado.</p>
+<h3 class="sub">1.1 Alcance territorial</h3>
+<p>Sofía está diseñada y dirigida a profesionales, negocios y pacientes ubicados en Honduras, y su marco de cumplimiento se ha construido sobre la legislación hondureña. La Plataforma no ha sido diseñada ni certificada para cumplir con regímenes de protección de datos de salud de otras jurisdicciones, tales como HIPAA en los Estados Unidos de América o el Reglamento General de Protección de Datos de la Unión Europea. El Cliente que atienda a Titulares sujetos a dichos regímenes es responsable de evaluar su propio cumplimiento y de adoptar las medidas adicionales que le resulten exigibles.</p>
+<aside class="note"><p>Nota: Este documento ha sido preparado como base de trabajo para Kinesis. Anthropic y Claude no son un despacho legal; se recomienda que un abogado hondureño especializado en protección de datos y responsabilidad médica revise y valide este documento antes de su publicación oficial.</p></aside>
+<h2 class="sec" id="seccion-2">2. Definiciones</h2>
+<table><thead><tr><th>Término</th><th>Definición</th></tr></thead><tbody>
+<tr><td>Kinesis</td><td>La empresa constituida en Honduras que desarrolla y opera la Plataforma Sofía, y responsable legal frente a Clientes, Pacientes y autoridades.</td></tr>
+<tr><td>Sofía / la Plataforma</td><td>El servicio de software (SaaS) de gestión y agendamiento de citas operado por Kinesis, incluyendo el asistente que se comunica con los Pacientes.</td></tr>
+<tr><td>Datos Personales</td><td>Cualquier información relacionada con una persona natural identificada o identificable, como nombre, número de identidad, correo electrónico o número de contacto.</td></tr>
+<tr><td>Datos de Salud</td><td>Información relativa a la salud física o mental de una persona, incluyendo el motivo de consulta, antecedentes, diagnósticos, tratamientos e historial clínico.</td></tr>
+<tr><td>Titular</td><td>La persona natural a quien pertenecen los Datos Personales (el Paciente o, en otros rubros, el cliente final que agenda una cita).</td></tr>
+<tr><td>Cliente</td><td>El médico, profesional de la salud, clínica o negocio que se suscribe a Sofía y a través de quien se recolecta la información de sus Pacientes.</td></tr>
+<tr><td>Encargado del Tratamiento</td><td>Kinesis, en su rol de proveedor tecnológico que almacena y procesa los datos por cuenta e instrucción del Cliente.</td></tr>
+<tr><td>Responsable del Tratamiento</td><td>El Cliente, quien decide qué datos se recolectan de sus Pacientes y con qué finalidad clínica o profesional.</td></tr>
+<tr><td>Datos Anonimizados</td><td>Datos de los cuales se han removido los identificadores personales, de forma que no es posible (razonablemente) volver a identificar al Titular.</td></tr>
+</tbody></table>
+<h2 class="sec" id="seccion-3">3. Responsable y Encargado del Tratamiento</h2>
+<p>Kinesis actúa principalmente como Encargado del Tratamiento: presta la infraestructura tecnológica para que el Cliente recolecte, almacene y consulte la información de sus Pacientes. El Cliente es el Responsable del Tratamiento de los datos clínicos de sus Pacientes, ya que define la finalidad de la recolección y mantiene la relación directa con el Paciente.</p>
+<p>Kinesis actúa adicionalmente como Responsable del Tratamiento respecto de los datos agregados y anonimizados que utiliza para generar estadísticas internas y mejorar el rendimiento de la Plataforma, conforme a la sección 6.</p>
+<h2 class="sec" id="seccion-4">4. Secreto Profesional Médico y Confidencialidad</h2>
+<p>Kinesis reconoce que la información que los Clientes del sector salud registran en Sofía se encuentra amparada por el secreto profesional médico. El Código de Ética del Colegio Médico de Honduras define el secreto médico, en su artículo 14, como el deber de salvaguardar la información que, por razón del ejercicio profesional, llega al conocimiento del médico en la relación médico-paciente y su contexto. La revelación indebida de secretos profesionales puede acarrear responsabilidad penal conforme al Código Penal de Honduras, además de responsabilidad deontológica ante el Colegio Médico.</p>
+<p>En consecuencia, Kinesis asume expresamente el carácter de encargado de soporte informático de información sometida a secreto profesional, y en tal calidad:</p>
+<ul>
+<li>Obliga contractualmente a todo su personal, contratistas y proveedores con acceso a la Plataforma a mantener la confidencialidad de la información, con vigencia indefinida aun después de terminada la relación laboral o contractual.</li>
+<li>No accede al contenido clínico registrado por el Cliente salvo cuando resulte estrictamente necesario para soporte técnico, seguridad o resolución de incidentes, dejando registro de cada acceso conforme a la sección 10.</li>
+<li>No divulga, cede ni comercializa información amparada por el secreto profesional, y solo la revela ante requerimiento de autoridad competente, informando al Cliente cuando la ley lo permita.</li>
+<li>Responderá frente al Cliente por los daños que le sean directamente imputables a Kinesis derivados de una vulneración de seguridad en la Plataforma que exponga datos de salud de sus Pacientes, en los términos y con los límites establecidos en los Términos y Condiciones de Uso.</li>
+</ul>
+<h2 class="sec" id="seccion-5">5. Datos que Recolectamos</h2>
+<h3 class="sub">5.1 Datos de los Clientes</h3>
+<p>Para la creación de la cuenta y la gestión de la suscripción, Kinesis recolecta del Cliente: nombre completo o razón social, número de identidad o registro profesional, correo electrónico, número de contacto, información de facturación (incluyendo RTN cuando aplique) y los datos necesarios para procesar el cobro recurrente de la suscripción.</p>
+<p>Kinesis no almacena el número completo ni el código de seguridad de las tarjetas de crédito o débito. El procesamiento y la domiciliación del cobro recurrente se realizan a través de proveedores de pago autorizados, sujetos a sus propias certificaciones y medidas de seguridad; Kinesis conserva únicamente una referencia tokenizada del medio de pago, los datos no sensibles que resulten necesarios para la gestión de la suscripción y la evidencia del consentimiento otorgado por el Cliente para el cobro recurrente, conforme a las reglas aplicables a credenciales almacenadas y al estándar PCI DSS, que exige reducir al mínimo el almacenamiento de datos de cuenta y mantener ilegible el número de tarjeta.</p>
+<h3 class="sub">5.2 Datos de los Pacientes — Fase actual</h3>
+<p>El Paciente accede a un enlace proporcionado por su Cliente para completar la información de su cita. En esta fase, la Plataforma recolecta: nombre completo, correo electrónico, número de identidad, número de contacto, el motivo o detalle de la cita que el Paciente decida indicar, y la modalidad de la cita (presencial, virtual, telefónica u otra).</p>
+<p>El motivo o detalle de la cita constituye un Dato de Salud cuando el Cliente pertenece al sector salud, y recibe el tratamiento reforzado descrito en las secciones 4 y 8 de esta Política.</p>
+<h3 class="sub">5.3 Datos de los Pacientes — Fase futura (historial clínico)</h3>
+<p>Kinesis tiene contemplado incorporar la posibilidad de que los Clientes mantengan un historial del Paciente para efectos de seguimiento, incluyendo historial clínico y servicios previos. Cuando esta funcionalidad se habilite, esta Política será actualizada y se notificará oportunamente, aplicando las medidas reforzadas que corresponden al expediente clínico conforme a la sección 11.</p>
+<h2 class="sec" id="seccion-6">6. Finalidad del Tratamiento de Datos</h2>
+<h3 class="sub">6.1 Prestación del servicio</h3>
+<p>Los datos se utilizan primordialmente para permitir que el Cliente gestione el agendamiento de citas con sus Pacientes: confirmar identidad, enviar recordatorios y mantener un registro ordenado de sus citas.</p>
+<h3 class="sub">6.2 Generación de estadísticas y mejora del rendimiento</h3>
+<p>Kinesis genera estadísticas agregadas que le permiten entender el uso de la Plataforma y mejorar su rendimiento — por ejemplo, tendencias de horarios de mayor demanda, tasas de asistencia o cancelación, y patrones de uso por tipo de especialidad. Para este propósito se remueven previamente los nombres y demás identificadores directos, de forma que el análisis se realiza exclusivamente sobre Datos Anonimizados. Además de suprimir los identificadores directos, Kinesis aplica controles de revelación estadística sobre los atributos cuasi-identificadores (por ejemplo, combinaciones de edad, sexo, ubicación y especialidad) y no publica ni difunde resultados cuando el tamaño del grupo sea tan reducido que permita, razonablemente, singularizar a una persona. Kinesis no comercializa estas estadísticas con terceros ni las difunde de forma que permita identificar a un Paciente o a un Cliente en particular.</p>
+<h3 class="sub">6.3 Posible entrenamiento de modelos de inteligencia artificial</h3>
+<p>Kinesis no utilizará datos personales identificables ni Datos de Salud para el entrenamiento de modelos de inteligencia artificial o aprendizaje automático sin el consentimiento expreso, específico e informado del Titular y la autorización del Cliente responsable. Kinesis podría, en el futuro, utilizar Datos Anonimizados para entrenar modelos orientados a mejorar la Plataforma; en tal caso, dichos datos se someterán previamente a procesos técnicos que impidan la reidentificación, aplicando un umbral mínimo de agrupamiento por combinación de atributos cuasi-identificadores, de modo que ningún registro pueda asociarse a una persona singularizable; el criterio aplicado y su verificación quedarán documentados. Cualquier funcionalidad de inteligencia artificial de Sofía tendrá carácter operativo y administrativo: en ningún caso emitirá diagnósticos médicos, recomendará tratamientos ni sustituirá el criterio clínico del profesional. El Titular podrá oponerse a través de los canales de la sección 17.</p>
+<h2 class="sec" id="seccion-7">7. Compartición de Datos con Terceros</h2>
+<p>Kinesis no vende, alquila ni comparte los Datos Personales de los Pacientes con aseguradoras, farmacéuticas, anunciantes ni ningún otro tercero con fines comerciales. Los datos identificables recolectados a través de un Cliente son de acceso exclusivo de dicho Cliente.</p>
+<p>Kinesis comparte información con los proveedores estrictamente necesarios para operar la Plataforma: su proveedor de infraestructura en la nube (actualmente Amazon Web Services), los proveedores de mensajería descritos en la sección 8 y el procesador de pagos de la suscripción, todos sujetos a obligaciones de confidencialidad y seguridad.</p>
+<p>Kinesis podrá divulgar información cuando sea requerido por ley, orden judicial o autoridad competente en Honduras.</p>
+<h2 class="sec" id="seccion-8">8. Comunicaciones, Recordatorios y Notificaciones</h2>
+<h3 class="sub">8.1 Canales y contenido</h3>
+<p>Sofía envía confirmaciones, recordatorios de cita y notificaciones por correo electrónico, WhatsApp y Telegram. Estas comunicaciones aplican tanto al Cliente —que puede recibir avisos operativos, por ejemplo de nuevas citas agendadas— como al Paciente. El asistente de la Plataforma se identifica ante el Paciente indicando su nombre (Sofía), el profesional y el consultorio de parte de quien escribe, de modo que el Paciente sepa siempre el origen del mensaje.</p>
+<p>Las plantillas de estos mensajes son definidas y controladas por Kinesis; el Cliente no las edita. Esto permite a Kinesis aplicar de forma uniforme las salvaguardas de confidencialidad descritas a continuación.</p>
+<h3 class="sub">8.2 Consentimiento previo e informado por canal</h3>
+<p>Antes de enviar cualquier recordatorio por WhatsApp o Telegram, la Plataforma solicita al Paciente su aceptación expresa para ese canal. La solicitud de aceptación informa, en términos claros y antes de que el Paciente responda, qué información contendrá el mensaje —incluyendo, cuando aplique, el motivo o detalle de la cita— y que dicho mensaje será transmitido a través de un proveedor de mensajería externo. Únicamente después de que el Paciente acepta expresamente se envían los recordatorios por ese canal.</p>
+<p>El Paciente que no acepta un canal no pierde el acceso al servicio de agendamiento: la cita se gestiona igualmente y el Paciente conserva la confirmación por los medios que haya autorizado.</p>
+<h3 class="sub">8.3 Proveedores de mensajería</h3>
+<p>Cuando se utilicen canales de mensajería de terceros, los datos de contacto y el contenido del mensaje serán tratados por los proveedores correspondientes: WhatsApp Business (operada por Meta), Telegram (operada por Telegram FZ-LLC) o los proveedores de correo electrónico respectivos, quienes procesan dicha información conforme a sus propias políticas de privacidad, sobre las cuales Kinesis no tiene control. Kinesis comparte con ellos únicamente la información mínima necesaria para el envío (destino y contenido del recordatorio), utilizando plantillas aprobadas cuando el proveedor así lo exija. El uso de estos canales está sujeto además a las políticas comerciales y de mensajería de cada proveedor, que pueden restringir el envío de contenido relacionado con salud y bienestar y cuyo incumplimiento puede derivar en la restricción o cancelación del canal. Kinesis mantiene sus plantillas alineadas a dichas políticas y podrá ajustar el contenido de los mensajes, o suspender un canal, cuando el proveedor lo requiera.</p>
+<p>Nota operativa: Las políticas de mensajería de los proveedores (en particular Meta/WhatsApp Business) restringen de forma condicionada el envío de contenido de salud y bienestar, y aplican un escalafón de sanciones que puede llegar a la pérdida permanente del número. Antes del lanzamiento, Kinesis debe validar sus plantillas contra la política vigente del proveedor y evaluar si el motivo de consulta debe omitirse en el mensaje y sustituirse por un enlace seguro.</p>
+<h3 class="sub">8.4 Revocación y exactitud de los datos de contacto</h3>
+<p>El Cliente y el Paciente pueden solicitar en cualquier momento dejar de recibir recordatorios o notificaciones por uno o varios canales, sin que ello afecte la gestión de sus citas. El Cliente y el Paciente son responsables de la exactitud de los datos de contacto proporcionados (número de teléfono, usuario de Telegram o dirección de correo electrónico); Kinesis no será responsable por comunicaciones dirigidas a un destino incorrecto suministrado por ellos.</p>
+<h2 class="sec" id="seccion-9">9. Cómo Recolectamos los Datos</h2>
+<ul>
+<li>Directamente del Cliente, al crear su cuenta y suscribirse a la Plataforma.</li>
+<li>Directamente del Paciente, cuando completa el formulario de agendamiento a través del enlace compartido por el Cliente.</li>
+<li>De forma automática, a través del uso de la Plataforma (por ejemplo, fecha y hora de la cita agendada y registros de actividad del sistema).</li>
+</ul>
+<p>Kinesis no compra bases de datos de terceros ni recolecta información de Pacientes por canales distintos a los descritos.</p>
+<h2 class="sec" id="seccion-10">10. Seguridad de la Información</h2>
+<ul>
+<li>Cifrado en tránsito: toda la información que viaja entre el navegador del Paciente, el Cliente y los servidores de la Plataforma se transmite mediante conexión cifrada (HTTPS/TLS).</li>
+<li>Cifrado en reposo: los datos almacenados se mantienen cifrados utilizando los servicios de gestión de llaves de la infraestructura en la nube.</li>
+<li>Control de acceso: el acceso a datos identificables está limitado al personal estrictamente autorizado, y únicamente cuando sea necesario para soporte técnico, seguridad o resolución de incidentes. Para desarrollo, pruebas y control de calidad se utilizan datos anonimizados, ficticios o entornos de prueba, salvo casos excepcionales debidamente justificados y registrados.</li>
+<li>Registro de accesos: Kinesis mantiene bitácoras (logs) de acceso a los sistemas que almacenan Datos Personales, con el fin de auditar y detectar accesos no autorizados.</li>
+<li>Integridad probatoria de las comunicaciones: conforme al artículo 11 de la Ley sobre Comercio Electrónico (Decreto 149-2014), Kinesis conserva los mensajes de datos relativos a citas y recordatorios en el formato en que fueron generados, junto con la información que permite determinar su origen, destino, fecha y hora de envío o recepción, de forma que puedan ser aportados como prueba cuando el Cliente lo requiera.</li>
+<li>Notificación de incidentes: en caso de un incidente de seguridad que comprometa Datos Personales, Kinesis notificará al Cliente afectado sin dilación indebida, informando la naturaleza del incidente, los datos potencialmente afectados y las medidas correctivas adoptadas.</li>
+</ul>
+<h2 class="sec" id="seccion-11">11. Expediente Clínico: Propiedad, Custodia y Disponibilidad</h2>
+<p>Kinesis reconoce que el expediente clínico y la información clínica que el Cliente registre en la Plataforma son propiedad de la institución y del prestador de servicios médicos, sobre quienes recae la obligación legal de conservarlos y mantenerlos disponibles. Conforme al estándar médico-legal de referencia en Honduras, los expedientes clínicos deben conservarse por un período mínimo de cinco (5) años contados a partir de la fecha del último acto médico, y la información contenida en ellos debe manejarse con discreción y confidencialidad. Kinesis adopta este plazo como base de su configuración; corresponde a cada Cliente verificar el plazo que le resulte exigible conforme a su normativa profesional e institucional.</p>
+<p>En consecuencia, Kinesis garantiza que el Cliente podrá acceder, consultar y exportar en todo momento la información clínica de sus Pacientes registrada en Sofía, incluso durante períodos de mora, suspensión o después de la cancelación de la suscripción, conforme a los plazos establecidos en los Términos y Condiciones de Uso. Kinesis no ejercerá retención sobre información clínica como medida de cobro.</p>
+<p>Nota de verificación: El plazo de cinco años desde el último acto médico proviene de la doctrina médico-legal hondureña consultada, no de un artículo literal del Código de Salud, cuyo texto completo no pudo verificarse. Del mismo modo, el deber de secreto profesional se sustenta en el Código de Ética del Colegio Médico y en el Código Penal. Se recomienda que el asesor legal de Kinesis confirme la base normativa exacta antes de la publicación definitiva.</p>
+<h2 class="sec" id="seccion-12">12. Conservación y Retención de Datos</h2>
+<p>Kinesis conserva los datos por plazos diferenciados según su naturaleza:</p>
+<table><thead><tr><th>Tipo de dato</th><th>Plazo de conservación</th></tr></thead><tbody>
+<tr><td>Información clínica y expediente del Paciente</td><td>Mínimo cinco (5) años desde la fecha del último acto médico, conforme al estándar aplicable a expedientes clínicos en Honduras.</td></tr>
+<tr><td>Datos de citas y de contacto del Paciente</td><td>Cinco (5) años desde su registro, como política interna de Kinesis.</td></tr>
+<tr><td>Datos de cuenta del Cliente</td><td>Mientras exista relación contractual, más el plazo contable y fiscal aplicable en Honduras.</td></tr>
+<tr><td>Datos de facturación y documentos fiscales</td><td>El plazo exigido por la normativa tributaria hondureña (mínimo cinco años).</td></tr>
+<tr><td>Bitácoras (logs) técnicos y de acceso</td><td>Entre seis (6) y veinticuatro (24) meses, según el tipo de registro.</td></tr>
+<tr><td>Registros de mensajes de datos de citas (Art. 11 Dto. 149-2014)</td><td>El plazo necesario para su valor probatorio, no menor al de la información clínica asociada.</td></tr>
+<tr><td>Datos anonimizados con fines estadísticos</td><td>Pueden conservarse indefinidamente, siempre que no permitan la reidentificación del Titular.</td></tr>
+</tbody></table>
+<p>Al cancelarse una suscripción, los datos asociados a la cuenta del Cliente entrarán en un período de resguardo antes de su eliminación definitiva, durante el cual el Cliente podrá solicitar la exportación de su información.</p>
+<aside class="note"><p>Nota: La legislación hondureña disponible no fija de forma expresa plazos de retención para plataformas digitales de agendamiento; el plazo de cinco años desde el último acto médico proviene del estándar aplicable al expediente clínico, y los cinco años de documentos fiscales de la normativa tributaria. Se recomienda validar estos plazos con el asesor legal de Kinesis.</p></aside>
+<h2 class="sec" id="seccion-13">13. Consentimiento Informado Clínico</h2>
+<p>La aceptación electrónica que el Paciente otorga en Sofía —incluida la casilla de verificación de esta Política y la aceptación de canales de comunicación— tiene validez para el agendamiento de la cita y para el tratamiento de datos descrito en este documento.</p>
+<p>Dicha aceptación NO constituye ni sustituye el consentimiento informado clínico que el profesional debe recabar de su Paciente para procedimientos médicos, quirúrgicos o de riesgo, el cual se rige por la normativa sanitaria y deontológica aplicable y debe obtenerse por los medios que dicha normativa exige. La obligación de recabar y documentar ese consentimiento corresponde exclusivamente al Cliente.</p>
+<h2 class="sec" id="seccion-14">14. Titularidad y Control de los Datos del Paciente</h2>
+<p>El Paciente proporciona su información al Cliente a través del enlace de agendamiento, y es el Cliente quien mantiene la relación directa y la responsabilidad primaria sobre dichos datos. Las solicitudes de acceso, corrección o eliminación deberán canalizarse, en primera instancia, a través del Cliente correspondiente.</p>
+<p>Sin perjuicio de lo anterior, y conforme al artículo 24 del Reglamento de la Ley de Protección al Consumidor de Honduras —que obliga a los proveedores de bienes y servicios a garantizar la protección de la información personal de los consumidores mediante mecanismos de control, seguridad y transparencia—, el Paciente puede dirigirse directamente a Kinesis por los canales de la sección 17 cuando el Cliente no atienda su solicitud, cuando ya no exista relación con dicho Cliente, o cuando la solicitud se refiera al tratamiento que Kinesis realiza por cuenta propia. Kinesis dará seguimiento y coordinará con el Cliente su resolución, sin perjuicio de las obligaciones de conservación del expediente clínico descritas en la sección 11.</p>
+<h2 class="sec" id="seccion-15">15. Derechos de los Titulares</h2>
+<ul>
+<li>Derecho de acceso: conocer qué datos suyos se encuentran almacenados en la Plataforma.</li>
+<li>Derecho de rectificación: solicitar la corrección de datos inexactos o desactualizados.</li>
+<li>Derecho de oposición: oponerse a que sus datos anonimizados sean utilizados para fines estadísticos o de entrenamiento de modelos de inteligencia artificial, y revocar la aceptación de cualquier canal de comunicación.</li>
+<li>Derecho de información: recibir explicación clara sobre cómo se procesan sus datos.</li>
+</ul>
+<p>Estos derechos podrán ejercerse contactando al Cliente que agendó la cita, o directamente a Kinesis por los canales de la sección 17.</p>
+<h2 class="sec" id="seccion-16">16. Cookies, Transferencias Internacionales y Menores de Edad</h2>
+<h3 class="sub">16.1 Cookies</h3>
+<p>La Plataforma podrá utilizar cookies y tecnologías similares para mantener la sesión activa, recordar preferencias y recolectar estadísticas de uso agregadas. No se utilizan para rastrear al Paciente fuera de la Plataforma ni para publicidad de terceros.</p>
+<h3 class="sub">16.2 Transferencias internacionales</h3>
+<p>Dado que la Plataforma utiliza infraestructura en la nube y proveedores de mensajería internacionales, los Datos Personales pueden ser almacenados, respaldados o transmitidos fuera de Honduras. Kinesis adopta las medidas contractuales y técnicas razonables para que dichos datos reciban un nivel de protección equivalente al descrito en esta Política.</p>
+<h3 class="sub">16.3 Menores de edad</h3>
+<p>La Plataforma está diseñada para ser utilizada por Clientes profesionales y Pacientes adultos. Cuando el Paciente sea menor de edad, la información deberá ser ingresada por su padre, madre o representante legal, quien otorga el consentimiento correspondiente en su representación.</p>
+<h2 class="sec" id="seccion-17">17. Contacto y Atención de Quejas</h2>
+<p>Cualquier consulta, solicitud o queja relacionada con el tratamiento de Datos Personales puede dirigirse al equipo de Servicio al Cliente de Kinesis. Conforme al artículo 73 del Reglamento de la Ley de Protección al Consumidor, Kinesis mantiene disponibles de forma permanente y visible en la Plataforma los siguientes canales, y conforme al artículo 28 del mismo Reglamento pone a disposición un Libro de Quejas en formato digital para el registro directo de reclamos:</p>
+<table><thead><tr><th>Canal</th><th>Detalle</th></tr></thead><tbody>
+<tr><td>Responsable</td><td>Kinesis (operador de la Plataforma Sofía)</td></tr>
+<tr><td>Correo electrónico</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Número de teléfono</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Domicilio físico</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Libro de Quejas</td><td>Disponible en formato digital dentro de la Plataforma, con constancia de registro.</td></tr>
+<tr><td>Tiempo estimado de respuesta</td><td>[por definir por Kinesis]</td></tr>
+</tbody></table>
+<h2 class="sec" id="seccion-18">18. Marco Legal Aplicable</h2>
+<p>Esta Política se rige por las leyes de la República de Honduras. Kinesis reconoce y toma como referencia el siguiente marco normativo:</p>
+<ul>
+<li>Constitución de la República de Honduras: artículo 76 (derecho al honor, a la intimidad personal y familiar y a la propia imagen) y artículo 100 (inviolabilidad y secreto de las comunicaciones y documentos personales).</li>
+<li>Ley de Transparencia y Acceso a la Información Pública (Decreto 170-2006): garantía de Habeas Data y principio de protección de los datos personales.</li>
+<li>Ley sobre Firmas Electrónicas (Decreto 149-2013) y Ley sobre Comercio Electrónico (Decreto 149-2014), en particular su artículo 11 sobre conservación de los mensajes de datos: validez jurídica de los actos, contratos y aceptaciones celebrados por medios electrónicos.</li>
+<li>Ley de Protección al Consumidor (Decreto 24-2008) y su Reglamento (Acuerdo No. 084-2021): artículo 24 (protección de la información personal del consumidor), artículo 28 (Libro de Quejas), artículo 73 (canales de contacto en comercio electrónico), artículo 75 (cobro indebido), artículo 79 (cláusulas abusivas) y artículo 81 (requisitos de los contratos).</li>
+<li>Código de Salud (Decreto 65-91) y Código de Ética del Colegio Médico de Honduras, en particular su artículo 14 sobre secreto médico, así como las disposiciones del Código Penal en materia de revelación de secretos profesionales.</li>
+</ul>
+<p>Honduras no cuenta actualmente con una ley integral de protección de datos personales en vigor; existe un anteproyecto de Ley de Protección de Datos Personales y Acción de Habeas Data en trámite legislativo. Kinesis se compromete a adecuar esta Política una vez dicha ley entre en vigencia.</p>
+<h2 class="sec" id="seccion-19">19. Aceptación de esta Política</h2>
+<p>Al suscribirse a Sofía, el Cliente acepta esta Política en representación propia y se compromete a informar a sus Pacientes sobre el tratamiento de sus datos conforme a este documento.</p>
+<p>El Paciente acepta esta Política al completar el formulario de agendamiento, mediante la aceptación expresa (casilla de verificación) que se presenta antes de enviar su información, y otorga por separado su aceptación para cada canal de comunicación conforme a la sección 8.</p>
+<p>La aceptación por medios electrónicos tiene plena validez jurídica en Honduras conforme a la Ley sobre Firmas Electrónicas, la Ley sobre Comercio Electrónico y sus reformas, que reconocen la aceptación electrónica de contratos estandarizados como manifestación válida del consentimiento.</p>
+<h2 class="sec" id="seccion-20">20. Cambios a esta Política</h2>
+<p>Kinesis se reserva el derecho de modificar, actualizar o sustituir esta Política, según las necesidades de la Plataforma, la incorporación de nuevas funcionalidades, la extensión a nuevos rubros o cambios en la normativa aplicable. Las modificaciones entrarán en vigencia a partir de su publicación en la Plataforma, indicándose la fecha de la última actualización en la portada.</p>
+<p>Es responsabilidad del Cliente y del Paciente revisar periódicamente esta Política, disponible de forma permanente en la Plataforma y en el enlace de agendamiento. El uso continuado con posterioridad a una modificación constituye la aceptación de la versión actualizada.</p>
+<p>Conforme al artículo 79 del Reglamento de la Ley de Protección al Consumidor —que considera abusivas las cláusulas que afecten inequitativamente al consumidor en el cotejo entre los derechos y obligaciones de ambas partes—, los cambios sustanciales, en particular los que amplíen las finalidades del tratamiento o incorporen nuevas categorías de datos sensibles, serán notificados con al menos treinta (30) días de anticipación a su entrada en vigencia, y el Cliente que no esté de acuerdo podrá cancelar su suscripción sin penalidad antes de que entren en vigor.</p>
+<h2 class="sec" id="seccion-21">21. Vigencia</h2>
+<p>Esta Política entra en vigor a partir de su fecha de publicación y permanecerá vigente hasta que sea sustituida por una versión actualizada.</p>
+<p>Estos documentos fueron preparados como base de trabajo. Anthropic y Claude no constituyen un despacho legal y este material no sustituye asesoría jurídica profesional. Se solicita la revisión y validación de un abogado hondureño antes de su publicación oficial.</p>
+</main>
+<footer>
+  <p>Sofía · Política de Privacidad y Protección de Datos Personales</p>
+</footer>
+</div>
+</body>
+</html>
