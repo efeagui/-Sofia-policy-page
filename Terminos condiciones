@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sofía — Términos y Condiciones de Uso</title>
+<meta name="description" content="Términos y Condiciones de Uso de Sofía, plataforma operada por Kinesis para la gestión de citas.">
+<style>
+:root{
+  --navy:#1E2761; --ice:#CADCFC; --muted:#44546A; --card:#F4F7FC;
+  --text:#222; --rule:#CADCFC; --bg:#fff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Calibri,Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.65; font-size:16px;
+}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px 80px}
+header.cover{
+  background:var(--navy); color:#fff; text-align:center;
+  padding:72px 24px 56px; margin-bottom:48px;
+}
+header.cover .brand{
+  font-size:clamp(38px,7vw,58px); font-weight:800; letter-spacing:.06em; margin:0 0 14px;
+}
+header.cover h1{
+  font-size:clamp(20px,3.4vw,28px); font-weight:600; margin:0 0 18px; line-height:1.35;
+}
+header.cover p{text-align:center}
+header.cover .sub{color:var(--ice); font-style:italic; margin:0 0 26px; font-size:15px}
+header.cover .meta{font-size:14px;color:var(--ice);margin:0}
+header.cover .scope{font-size:13px;color:rgba(255,255,255,.72);margin:8px auto 0;max-width:620px}
+nav.toc{
+  background:var(--card); border:1px solid var(--rule); border-radius:10px;
+  padding:22px 26px; margin-bottom:44px;
+}
+nav.toc h2{margin:0 0 12px;font-size:17px;color:var(--navy)}
+nav.toc ol{margin:0;padding-left:22px;columns:2;column-gap:32px}
+nav.toc li{margin:5px 0;break-inside:avoid}
+nav.toc a{color:var(--muted);text-decoration:none;font-size:14.5px}
+nav.toc a:hover{color:var(--navy);text-decoration:underline}
+h2.sec{
+  color:var(--navy); font-size:22px; margin:44px 0 14px; padding-bottom:8px;
+  border-bottom:2px solid var(--rule); scroll-margin-top:20px;
+}
+h3.sub{color:var(--navy); font-size:17px; margin:28px 0 10px}
+p{margin:0 0 16px; text-align:justify}
+ul{margin:0 0 18px; padding-left:24px}
+li{margin:0 0 8px}
+.note{
+  background:var(--card); border:1px solid var(--rule); border-left:4px solid var(--navy);
+  border-radius:6px; padding:14px 18px; margin:20px 0 24px;
+  font-style:italic; font-size:14.5px; color:var(--muted);
+}
+.note p{margin:0;text-align:left}
+table{width:100%;border-collapse:collapse;margin:18px 0 26px;font-size:15px}
+thead th{background:var(--navy);color:#fff;text-align:left;padding:10px 12px;font-weight:600}
+tbody td{padding:10px 12px;border-bottom:1px solid #E4E9F2;vertical-align:top}
+tbody tr:nth-child(even){background:var(--card)}
+footer{
+  margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);
+  font-size:13px;color:var(--muted);text-align:center;
+}
+@media (max-width:640px){
+  nav.toc ol{columns:1}
+  p{text-align:left}
+  table{display:block;overflow-x:auto}
+}
+@media print{
+  header.cover{background:#fff;color:var(--navy);padding:40px 0}
+  header.cover .sub,header.cover .meta,header.cover .scope{color:var(--muted)}
+  nav.toc{break-after:page}
+  h2.sec{break-after:avoid}
+}
+</style>
+</head>
+<body>
+<header class="cover">
+  <p class="brand">SOFÍA</p>
+  <p class="sub" style="margin-bottom:18px">una plataforma de Kinesis</p>
+  <h1>Términos y Condiciones de Uso</h1>
+  <p class="meta">Versión 2.2 — Agosto 2026</p>
+</header>
+<div class="wrap">
+<nav class="toc">
+  <h2>Índice</h2>
+  <ol>
+<li><a href="#seccion-1">1. Introducción y Aceptación</a></li>
+<li><a href="#seccion-2">2. Definiciones</a></li>
+<li><a href="#seccion-3">3. Descripción del Servicio</a></li>
+<li><a href="#seccion-4">4. Naturaleza del Servicio — Kinesis No Presta Servicios Profesionales</a></li>
+<li><a href="#seccion-5">5. Registro y Cuenta del Cliente</a></li>
+<li><a href="#seccion-6">6. Suscripción, Cobro Recurrente y Precios</a></li>
+<li><a href="#seccion-7">7. Acceso a la Información Clínica y Continuidad del Expediente</a></li>
+<li><a href="#seccion-8">8. Facturación</a></li>
+<li><a href="#seccion-9">9. Política de Devoluciones y Reembolsos</a></li>
+<li><a href="#seccion-10">10. Política de Entrega del Servicio</a></li>
+<li><a href="#seccion-11">11. Política de Cancelación</a></li>
+<li><a href="#seccion-12">12. Comunicaciones a los Pacientes y Consentimiento por Canal</a></li>
+<li><a href="#seccion-13">13. Consentimiento Informado Clínico</a></li>
+<li><a href="#seccion-14">14. Confidencialidad y Secreto Profesional</a></li>
+<li><a href="#seccion-15">15. Política de Seguridad</a></li>
+<li><a href="#seccion-16">16. Uso Aceptable y Prohibiciones</a></li>
+<li><a href="#seccion-17">17. Propiedad Intelectual</a></li>
+<li><a href="#seccion-18">18. Contacto y Atención al Cliente</a></li>
+<li><a href="#seccion-19">19. Disponibilidad, Suspensión y Terminación</a></li>
+<li><a href="#seccion-20">20. Limitación de Responsabilidad e Indemnización</a></li>
+<li><a href="#seccion-21">21. Fuerza Mayor</a></li>
+<li><a href="#seccion-22">22. Modificaciones a estos Términos</a></li>
+<li><a href="#seccion-23">23. Ley Aplicable y Jurisdicción</a></li>
+<li><a href="#seccion-24">24. Disposiciones Finales y Vigencia</a></li>
+  </ol>
+</nav>
+<main>
+<h2 class="sec" id="seccion-1">1. Introducción y Aceptación</h2>
+<p>Los presentes Términos y Condiciones de Uso (los "Términos") regulan el acceso y uso de Sofía (la "Plataforma"), un servicio de software como servicio (SaaS) para la gestión y agendamiento de citas, desarrollado y operado por Kinesis, empresa constituida conforme a las leyes de la República de Honduras. Kinesis es la persona jurídica responsable de la Plataforma; Sofía es el nombre comercial del producto.</p>
+<p>Al crear una cuenta, suscribirse o utilizar la Plataforma de cualquier forma —incluyendo el agendamiento de una cita a través de un enlace— el Cliente y el Paciente aceptan quedar vinculados por estos Términos y por la Política de Privacidad, que forma parte integral de este documento.</p>
+<p>La aceptación por medios electrónicos (casilla de verificación u otro mecanismo equivalente) tiene plena validez jurídica en Honduras conforme a la Ley sobre Firmas Electrónicas (Decreto 149-2013), la Ley sobre Comercio Electrónico (Decreto 149-2014) y sus reformas.</p>
+<h3 class="sub">1.1 Alcance territorial</h3>
+<p>Sofía está diseñada y dirigida a profesionales, negocios y usuarios ubicados en Honduras. La Plataforma no ha sido diseñada ni certificada para cumplir con HIPAA en los Estados Unidos de América ni con el Reglamento General de Protección de Datos de la Unión Europea, y no debe utilizarse para el manejo de información de salud sujeta a dichos regímenes sin que el Cliente adopte las medidas adicionales que le resulten exigibles y asuma la responsabilidad correspondiente.</p>
+<p>Estos Términos se complementan con la Política de Privacidad y con el Acuerdo de Procesamiento de Datos, que regula la relación entre el Cliente como Responsable del Tratamiento y Kinesis como Encargado, y que se entiende aceptado por el Cliente al suscribirse a la Plataforma.</p>
+<aside class="note"><p>Nota: Este documento ha sido preparado como base de trabajo para Kinesis. Anthropic y Claude no son un despacho legal; se recomienda que un abogado hondureño lo revise y valide antes de su publicación oficial y de su presentación ante el procesador de pagos.</p></aside>
+<h2 class="sec" id="seccion-2">2. Definiciones</h2>
+<p>Los términos con mayúscula inicial —"Kinesis", "Sofía", "Cliente", "Paciente", "Titular", "Datos Personales" y "Datos de Salud"— tienen el significado que se les asigna en la Política de Privacidad. En síntesis: Kinesis es la empresa operadora; Sofía es la Plataforma; el Cliente es el profesional, clínica o negocio que se suscribe (médicos, dentistas, psicólogos, nutricionistas, abogados, salones de belleza, barberías u otros rubros que trabajen bajo cita previa); y el Paciente es la persona que agenda una cita con un Cliente, denominación que incluye a los clientes finales de rubros distintos al de salud.</p>
+<h2 class="sec" id="seccion-3">3. Descripción del Servicio</h2>
+<p>Sofía permite al Cliente gestionar el agendamiento de citas con sus Pacientes, incluyendo: creación de un perfil de usuario, recepción de solicitudes de cita mediante un enlace compartido con los Pacientes, envío de confirmaciones, recordatorios y notificaciones por correo electrónico, WhatsApp y Telegram, y funcionalidades adicionales que se habiliten, como historial de servicios y módulos complementarios.</p>
+<p>El acceso se otorga bajo una licencia de uso limitada, no exclusiva, intransferible y revocable, exclusivamente para los fines descritos en estos Términos y mientras la suscripción se encuentre vigente.</p>
+<h2 class="sec" id="seccion-4">4. Naturaleza del Servicio — Kinesis No Presta Servicios Profesionales</h2>
+<p>Sofía es exclusivamente una herramienta tecnológica de gestión de citas. Kinesis NO presta servicios médicos ni profesionales de ningún tipo: no diagnostica, no prescribe tratamientos, no emite opiniones clínicas, no recomienda medicamentos y no sustituye la relación entre el profesional y su Paciente.</p>
+<p>El Cliente es el único responsable de los servicios profesionales que preste, de la veracidad de la información que registre, de contar con las licencias, colegiaciones o permisos exigidos para el ejercicio de su profesión, y del cumplimiento de sus obligaciones deontológicas y legales, incluido el deber de secreto profesional. Kinesis no verifica ni garantiza las credenciales profesionales de los Clientes.</p>
+<p>Las funcionalidades de inteligencia artificial de la Plataforma tienen carácter operativo y administrativo. El asistente de Sofía no emite diagnósticos ni recomendaciones clínicas, y toda comunicación que envía se limita a la gestión logística de la cita.</p>
+<p>Cualquier controversia derivada de la prestación del servicio profesional —incluyendo su calidad, resultado, cobro o cancelación de la cita por parte del Cliente— deberá resolverse directamente entre el Paciente y el Cliente, sin responsabilidad para Kinesis.</p>
+<h2 class="sec" id="seccion-5">5. Registro y Cuenta del Cliente</h2>
+<ul>
+<li>El Cliente debe proporcionar información veraz, completa y actualizada al crear su cuenta, incluyendo los datos fiscales necesarios para la facturación.</li>
+<li>Las credenciales de acceso son confidenciales; el Cliente es responsable de toda actividad realizada desde su cuenta.</li>
+<li>El Cliente debe notificar de inmediato cualquier uso no autorizado de su cuenta o compromiso de sus credenciales.</li>
+<li>Kinesis podrá rechazar o dar de baja registros que contengan información falsa, suplanten identidades o incumplan estos Términos.</li>
+</ul>
+<h2 class="sec" id="seccion-6">6. Suscripción, Cobro Recurrente y Precios</h2>
+<h3 class="sub">6.1 Modelo de suscripción y pago por consumo</h3>
+<p>El acceso a Sofía se contrata mediante una suscripción de pago por adelantado (por ejemplo, mensual), que otorga al Cliente el derecho de utilizar la Plataforma durante la totalidad del período pagado. Adicionalmente, ciertos módulos o servicios complementarios —como el envío de mensajes a través de WhatsApp u otros canales de mensajería— pueden generar cargos adicionales por consumo, conforme a las tarifas vigentes informadas al Cliente antes de la activación del módulo correspondiente.</p>
+<h3 class="sub">6.2 Autorización de cobro recurrente con tarjeta</h3>
+<p>Al contratar la suscripción, el Cliente autoriza expresamente a Kinesis, directamente o a través de su procesador de pagos, a efectuar cargos recurrentes y automáticos a la tarjeta de crédito o débito que registre, por el monto de la suscripción vigente más los cargos por consumo que correspondan, al inicio de cada período de facturación y hasta que el Cliente cancele su suscripción conforme a la sección 11.</p>
+<ul>
+<li>Kinesis no almacena el número completo ni el código de seguridad de la tarjeta; el medio de pago se conserva de forma tokenizada por el procesador de pagos autorizado, conforme al estándar PCI DSS, que exige reducir al mínimo el almacenamiento de datos de cuenta y mantener ilegible el número de tarjeta.</li>
+<li>El Cliente puede actualizar o sustituir su medio de pago en cualquier momento desde la Plataforma, así como revocar la autorización de cobro recurrente, lo cual surtirá efecto conforme a la sección 11.</li>
+<li>Kinesis conserva evidencia del consentimiento otorgado por el Cliente para el cobro recurrente, conforme a las reglas aplicables a credenciales almacenadas, y podrá requerirla el emisor de la tarjeta ante una controversia.</li>
+<li>Kinesis informará al Cliente cada cobro efectuado mediante el envío del documento fiscal correspondiente, y le enviará una notificación previa de los cobros futuros. Cuando el cobro recurrente se inicie al término de un período de prueba o de una promoción, la notificación se enviará con al menos siete (7) días de anticipación.</li>
+<li>Si el cobro recurrente es rechazado, Kinesis podrá reintentarlo y notificará al Cliente para que regularice su medio de pago antes de aplicar la suspensión prevista en la sección 6.4.</li>
+</ul>
+<h3 class="sub">6.3 Precios y modificaciones</h3>
+<p>Los precios, planes y tarifas vigentes se publican en la Plataforma o se comunican al Cliente por los canales oficiales, se expresan en la moneda ahí indicada y no incluyen los impuestos aplicables. Kinesis podrá modificar sus precios notificándolo al Cliente con al menos treinta (30) días de anticipación; los nuevos precios aplicarán a partir del siguiente período de suscripción, nunca de forma retroactiva sobre períodos ya pagados. El Cliente que no esté de acuerdo podrá cancelar sin penalidad antes de que el nuevo precio entre en vigor.</p>
+<h3 class="sub">6.4 Mora y suspensión</h3>
+<p>En caso de falta de pago o rechazo reiterado del cobro recurrente, Kinesis podrá suspender el acceso a las funciones de agendamiento y envío de recordatorios hasta que el Cliente regularice su situación. Dicha suspensión no afectará el acceso del Cliente a la información clínica de sus Pacientes, conforme a la sección 7.</p>
+<h3 class="sub">6.5 Controversias y contracargos</h3>
+<p>Si el Cliente no reconoce un cargo, se compromete a contactar primero a Servicio al Cliente de Kinesis, que revisará el caso y, cuando proceda, aplicará el reembolso conforme a la sección 9. Kinesis conservará y podrá aportar al emisor de la tarjeta la evidencia del consentimiento del cobro recurrente, los documentos fiscales emitidos y los registros de uso del servicio. Lo anterior no limita el derecho del Cliente de acudir a su emisor ni a las instancias de protección al consumidor.</p>
+<aside class="note"><p>Nota: Las reglas específicas de contracargos, plazos de representación y requisitos de evidencia son fijadas por el adquirente y las redes de tarjetas con las que Kinesis contrate. Estas condiciones deben confirmarse con el procesador de pagos al momento de la afiliación y reflejarse en esta sección.</p></aside>
+<h2 class="sec" id="seccion-7">7. Acceso a la Información Clínica y Continuidad del Expediente</h2>
+<p>Kinesis reconoce que el expediente clínico y la información clínica registrada por el Cliente son propiedad de la institución y del prestador de servicios médicos, sobre quienes recae la obligación legal de conservarlos por un período mínimo de cinco (5) años contados desde el último acto médico y de mantenerlos disponibles para el Paciente y para las autoridades cuando corresponda.</p>
+<p>En consecuencia, y aun en situación de mora, suspensión, disputa comercial o cancelación de la suscripción, Kinesis garantiza al Cliente el acceso de lectura y la exportación de la información clínica de sus Pacientes. Kinesis no ejercerá retención sobre información clínica como medida de cobro ni condicionará su entrega al pago de sumas adeudadas.</p>
+<p>Tras la terminación de la suscripción, el Cliente dispondrá de un período de al menos treinta (30) días para exportar íntegramente dicha información en un formato de uso común, sin perjuicio de los plazos de resguardo establecidos en la Política de Privacidad.</p>
+<p>Nota de verificación: El plazo de cinco años desde el último acto médico proviene de la doctrina médico-legal hondureña consultada y no de un artículo literal del Código de Salud, cuyo texto completo no pudo verificarse. Se recomienda que el asesor legal de Kinesis confirme la base normativa exacta antes de la publicación definitiva.</p>
+<h2 class="sec" id="seccion-8">8. Facturación</h2>
+<p>Kinesis emitirá por cada cobro el documento fiscal correspondiente conforme al régimen de facturación vigente en Honduras administrado por el Servicio de Administración de Rentas (SAR). Cada documento incluirá la Clave de Autorización de Impresión (CAI) vigente, el RTN de Kinesis y del Cliente cuando aplique, la numeración correlativa dentro del rango autorizado por el SAR, y el desglose del monto imponible y del Impuesto Sobre Ventas (ISV) a la tasa del quince por ciento (15%) aplicable a los servicios de software en Honduras.</p>
+<p>El Cliente es responsable de proporcionar datos fiscales correctos y actualizados. Kinesis no será responsable por errores en documentos fiscales derivados de información incorrecta suministrada por el Cliente; las correcciones se tramitarán conforme a los procedimientos fiscales aplicables, incluyendo la emisión de notas de crédito cuando corresponda.</p>
+<h2 class="sec" id="seccion-9">9. Política de Devoluciones y Reembolsos</h2>
+<p>Por la naturaleza del servicio —una suscripción digital cuyo período pagado queda íntegramente a disposición del Cliente— no se otorgan reembolsos por los días no utilizados de un período en curso, ni por la falta de uso de la Plataforma durante dicho período.</p>
+<p>No obstante, Kinesis reembolsará los cobros indebidos, entendiéndose por tales: cobros duplicados, cobros recurrentes efectuados después de la fecha efectiva de cancelación, cobros por montos distintos a los contratados y cobros por módulos no activados por el Cliente. El reembolso se efectuará dentro de un plazo máximo de cinco (5) días contados desde la verificación del cobro indebido, conforme al artículo 75 (Cobro Indebido) del Reglamento de la Ley de Protección al Consumidor (Acuerdo No. 084-2021) y a la Ley de Protección al Consumidor (Decreto 24-2008), utilizando el mismo medio de pago con el que se realizó el cobro, salvo acuerdo distinto.</p>
+<p>Las solicitudes de reembolso deberán dirigirse a Servicio al Cliente por los canales de la sección 18, acompañadas del comprobante del cobro correspondiente.</p>
+<h2 class="sec" id="seccion-10">10. Política de Entrega del Servicio</h2>
+<p>Sofía es un servicio exclusivamente digital: Kinesis no comercializa ni envía bienes físicos de ningún tipo, por lo que no existen envíos, empaques, transportistas ni plazos de entrega física asociados.</p>
+<p>La entrega se realiza mediante la activación digital del acceso a la Plataforma: confirmado el pago, el acceso se habilita de forma inmediata o, a más tardar, dentro de las veinticuatro (24) horas siguientes. Los módulos complementarios se activan en el plazo informado al momento de su contratación. Si el acceso no se habilita en dichos plazos, el Cliente podrá reportarlo para su activación inmediata o, en su defecto, la compensación del tiempo no disponible.</p>
+<h2 class="sec" id="seccion-11">11. Política de Cancelación</h2>
+<p>El Cliente puede solicitar la cancelación de su suscripción en cualquier momento, a través de la Plataforma o de los canales de Servicio al Cliente, sin penalidad alguna.</p>
+<p>La cancelación surtirá efecto al finalizar el período de suscripción vigente que ya haya sido pagado: durante los días restantes el servicio permanecerá activo y disponible. A partir de la fecha efectiva de cancelación cesa la autorización de cobro recurrente y no se generarán nuevos cargos. Dado que el período pagado queda íntegramente a disposición del Cliente, la cancelación no genera reembolso por los días no utilizados del período en curso, conforme a la sección 9.</p>
+<p>Una vez efectiva la cancelación, el Cliente conserva el derecho de acceso y exportación de la información clínica previsto en la sección 7. La cancelación de una cita específica entre un Paciente y un Cliente es un asunto entre ambos y se rige por las condiciones que el Cliente establezca.</p>
+<h2 class="sec" id="seccion-12">12. Comunicaciones a los Pacientes y Consentimiento por Canal</h2>
+<p>Sofía envía confirmaciones, recordatorios y notificaciones a los Pacientes por correo electrónico, WhatsApp y Telegram. Las plantillas de estos mensajes son definidas y controladas por Kinesis; el Cliente no las edita.</p>
+<p>Antes de enviar recordatorios por WhatsApp o Telegram, la Plataforma solicita al Paciente su aceptación expresa para ese canal, informándole previamente qué información contendrá el mensaje —incluyendo, cuando aplique, el motivo o detalle de la cita— y que será transmitida a través de un proveedor de mensajería externo. Solo tras esa aceptación se envían los recordatorios por dicho canal.</p>
+<p>El uso de los canales de mensajería está sujeto además a las políticas comerciales y de mensajería de cada proveedor, que pueden restringir el contenido relacionado con salud y bienestar y cuyo incumplimiento puede derivar en la restricción temporal o la cancelación permanente del canal. Kinesis mantiene sus plantillas alineadas a dichas políticas y podrá modificar el contenido de los mensajes o suspender un canal cuando el proveedor lo requiera, sin que ello constituya incumplimiento de estos Términos.</p>
+<p>Nota operativa: Antes del lanzamiento, Kinesis debe validar sus plantillas contra la política vigente del proveedor de mensajería (en particular Meta/WhatsApp Business) y evaluar si el motivo de consulta debe omitirse del mensaje y sustituirse por un enlace seguro, dado el escalafón de sanciones que puede llegar a la pérdida permanente del número.</p>
+<p>El Cliente reconoce que el envío de recordatorios se realiza por instrucción suya y en el marco de la relación que mantiene con sus Pacientes, y se obliga a que la información que registre en la Plataforma sea la necesaria para la gestión de la cita. El Paciente puede revocar su aceptación de cualquier canal en cualquier momento sin perder el acceso al servicio de agendamiento.</p>
+<h2 class="sec" id="seccion-13">13. Consentimiento Informado Clínico</h2>
+<p>La aceptación electrónica que el Paciente otorga en Sofía es válida para el agendamiento de la cita y para el tratamiento de datos descrito en la Política de Privacidad. Dicha aceptación NO constituye ni sustituye el consentimiento informado clínico que el profesional debe recabar para procedimientos médicos, quirúrgicos o de riesgo, el cual se rige por la normativa sanitaria y deontológica aplicable. La obligación de recabar y documentar ese consentimiento corresponde exclusivamente al Cliente.</p>
+<h2 class="sec" id="seccion-14">14. Confidencialidad y Secreto Profesional</h2>
+<p>Kinesis asume el carácter de encargado de soporte informático de información sometida a secreto profesional. Todo su personal, contratistas y proveedores con acceso a la Plataforma están obligados contractualmente a mantener la confidencialidad de la información con vigencia indefinida. Kinesis responderá frente al Cliente por los daños que le sean directamente imputables derivados de una vulneración de seguridad en la Plataforma que exponga datos de salud de sus Pacientes, con los límites de la sección 20.</p>
+<p>El Cliente, por su parte, es responsable de registrar únicamente la información necesaria, de gestionar adecuadamente los accesos de su propio personal y de cumplir el deber de secreto que le impone su normativa profesional.</p>
+<h2 class="sec" id="seccion-15">15. Política de Seguridad</h2>
+<ul>
+<li>Cifrado de la información en tránsito (HTTPS/TLS) y cifrado de los datos en reposo en la infraestructura de nube.</li>
+<li>Kinesis no almacena datos completos de tarjetas de crédito o débito: el procesamiento de pagos se realiza a través de proveedores autorizados, sujetos a sus propias certificaciones.</li>
+<li>Acceso a datos identificables limitado al personal estrictamente autorizado y únicamente cuando sea necesario para soporte, seguridad o resolución de incidentes.</li>
+<li>Bitácoras (logs) de acceso a los sistemas que almacenan Datos Personales, para auditar y detectar accesos no autorizados.</li>
+<li>Conservación de los mensajes de datos relativos a citas y recordatorios conforme al artículo 11 de la Ley sobre Comercio Electrónico, preservando origen, destino, fecha y hora, de modo que el Cliente pueda aportarlos como prueba cuando lo requiera.</li>
+<li>Notificación al Cliente afectado, sin dilación indebida, en caso de un incidente de seguridad que comprometa Datos Personales.</li>
+</ul>
+<h2 class="sec" id="seccion-16">16. Uso Aceptable y Prohibiciones</h2>
+<ul>
+<li>Utilizar la Plataforma para fines distintos a la gestión de citas y servicios relacionados, o para actividades ilícitas o que infrinjan derechos de terceros.</li>
+<li>Ingresar información falsa, suplantar identidades o registrar cuentas a nombre de terceros sin autorización.</li>
+<li>Intentar acceder sin autorización a sistemas, cuentas o datos de otros usuarios, o vulnerar las medidas de seguridad de la Plataforma.</li>
+<li>Realizar ingeniería inversa, descompilar, copiar, revender, sublicenciar o explotar comercialmente la Plataforma sin autorización escrita de Kinesis.</li>
+<li>Utilizar los canales de comunicación de la Plataforma para enviar mensajes masivos no solicitados, publicidad no autorizada o contenido ofensivo.</li>
+<li>Introducir virus, código malicioso o realizar acciones que degraden o interrumpan el funcionamiento de la Plataforma.</li>
+</ul>
+<p>El incumplimiento faculta a Kinesis para suspender o terminar la cuenta conforme a la sección 19, sin perjuicio de las acciones legales que correspondan y respetando siempre el acceso a la información clínica previsto en la sección 7.</p>
+<h2 class="sec" id="seccion-17">17. Propiedad Intelectual</h2>
+<p>Todos los derechos de propiedad intelectual sobre la Plataforma pertenecen a Kinesis, incluyendo el código fuente, las marcas "Kinesis" y "Sofía", los logotipos, el diseño de la interfaz, la estructura de las bases de datos, las metodologías, los flujos de automatización, los algoritmos, los modelos de inteligencia artificial, la documentación y las mejoras o nuevas funcionalidades del producto.</p>
+<p>El Cliente es y seguirá siendo el titular de los datos de sus Pacientes que registre en la Plataforma; sin embargo, no adquiere derecho alguno sobre el software, el código, la estructura, el diseño, las funcionalidades ni la tecnología. La suscripción otorga únicamente la licencia de uso descrita en la sección 3.</p>
+<h2 class="sec" id="seccion-18">18. Contacto y Atención al Cliente</h2>
+<p>Las consultas, solicitudes, reclamos y solicitudes de reembolso deben dirigirse a Servicio al Cliente de Kinesis. Conforme al artículo 73 del Reglamento de la Ley de Protección al Consumidor, Kinesis pone a disposición de forma permanente y visible en la Plataforma los siguientes canales, y conforme al artículo 28 un Libro de Quejas en formato digital:</p>
+<table><thead><tr><th>Canal</th><th>Detalle</th></tr></thead><tbody>
+<tr><td>Responsable</td><td>Kinesis (operador de la Plataforma Sofía)</td></tr>
+<tr><td>Correo electrónico</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Número de teléfono</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Domicilio físico</td><td>[por definir por Kinesis]</td></tr>
+<tr><td>Libro de Quejas</td><td>Disponible en formato digital dentro de la Plataforma, con constancia de registro.</td></tr>
+</tbody></table>
+<p>Lo anterior se establece sin perjuicio del derecho del Cliente, en su calidad de consumidor, de acudir a la Dirección General de Protección al Consumidor u otras instancias competentes.</p>
+<h2 class="sec" id="seccion-19">19. Disponibilidad, Suspensión y Terminación</h2>
+<p>Kinesis realizará esfuerzos comercialmente razonables para mantener la Plataforma disponible de forma continua. El servicio puede experimentar interrupciones por mantenimientos programados, actualizaciones, fallas de proveedores externos o causas de fuerza mayor. La Plataforma se provee "tal cual" y "según disponibilidad", sin garantía de funcionamiento ininterrumpido o libre de errores.</p>
+<p>Kinesis podrá suspender o terminar la cuenta del Cliente por: (a) mora o rechazo reiterado del cobro recurrente; (b) incumplimiento de la sección 16; (c) uso que ponga en riesgo la seguridad de la Plataforma o de los datos; (d) requerimiento de autoridad competente; o (e) información de registro falsa. Cuando la causa sea subsanable, Kinesis procurará notificar al Cliente para que la corrija. En todos los casos se preserva el acceso a la información clínica conforme a la sección 7.</p>
+<p>Las secciones que por su naturaleza deban sobrevivir a la terminación —confidencialidad, propiedad intelectual, acceso al expediente, limitación de responsabilidad y ley aplicable— permanecerán vigentes.</p>
+<h2 class="sec" id="seccion-20">20. Limitación de Responsabilidad e Indemnización</h2>
+<p>En la máxima medida permitida por la legislación hondureña, Kinesis no será responsable por: (a) los servicios profesionales prestados por los Clientes ni por las controversias entre Clientes y Pacientes; (b) daños indirectos, incidentales, consecuenciales o lucro cesante; (c) pérdidas derivadas de interrupciones atribuibles a proveedores externos, fallas de conectividad del usuario o fuerza mayor; (d) la exactitud de la información ingresada por Clientes o Pacientes; ni (e) comunicaciones dirigidas a datos de contacto incorrectos suministrados por ellos.</p>
+<p>La responsabilidad total y acumulada de Kinesis frente al Cliente se limita al monto efectivamente pagado por el Cliente durante los tres (3) meses anteriores al hecho que origine la reclamación. Nada en estos Términos limita la responsabilidad que no pueda excluirse conforme a la ley hondureña, incluyendo la derivada de dolo o culpa grave.</p>
+<p>El Cliente se obliga a indemnizar y mantener indemne a Kinesis frente a reclamaciones de terceros derivadas del incumplimiento de estos Términos por su parte, de los servicios profesionales que preste, de la información que registre en la Plataforma o del uso de la Plataforma en contravención de la ley.</p>
+<aside class="note"><p>Nota: El límite de responsabilidad (tres meses de suscripción) es un estándar de la industria SaaS propuesto como punto de partida; el equipo legal de Kinesis puede ajustarlo según su apetito de riesgo, considerando que la Plataforma trata datos de salud.</p></aside>
+<h2 class="sec" id="seccion-21">21. Fuerza Mayor</h2>
+<p>Ninguna de las partes será responsable por el incumplimiento de sus obligaciones (distintas de las de pago) cuando se deba a fuerza mayor o caso fortuito, incluyendo desastres naturales, cortes generalizados de energía o telecomunicaciones, actos de autoridad, conflictos sociales o fallas generalizadas de proveedores de infraestructura, mientras dichas causas persistan.</p>
+<h2 class="sec" id="seccion-22">22. Modificaciones a estos Términos</h2>
+<p>Kinesis se reserva el derecho de modificar, actualizar o sustituir estos Términos, según las necesidades de la Plataforma, nuevas funcionalidades, la extensión a nuevos rubros o cambios normativos. Las modificaciones entrarán en vigencia a partir de su publicación en la Plataforma, indicándose la fecha de la última actualización.</p>
+<p>Es responsabilidad del Cliente y del Paciente revisar periódicamente estos Términos, disponibles de forma permanente en la Plataforma y en el enlace de agendamiento. El uso continuado con posterioridad a una modificación constituye la aceptación de la versión actualizada.</p>
+<p>Conforme al artículo 79 del Reglamento de la Ley de Protección al Consumidor, que considera abusivas las cláusulas que afecten inequitativamente al consumidor en el cotejo entre los derechos y obligaciones de ambas partes, las modificaciones que afecten precios, condiciones de pago, alcance del servicio o derechos del Cliente serán notificadas con al menos treinta (30) días de anticipación, no se aplicarán retroactivamente a períodos ya pagados, y el Cliente podrá cancelar sin penalidad antes de su entrada en vigencia.</p>
+<h2 class="sec" id="seccion-23">23. Ley Aplicable y Jurisdicción</h2>
+<p>Estos Términos se rigen por las leyes de la República de Honduras. Cualquier controversia derivada de su interpretación, ejecución o cumplimiento se someterá a los tribunales competentes de Honduras, sin perjuicio de los mecanismos administrativos de protección al consumidor y de la posibilidad de acordar mecanismos alternativos de resolución de disputas.</p>
+<h2 class="sec" id="seccion-24">24. Disposiciones Finales y Vigencia</h2>
+<p>Si alguna disposición fuera declarada nula o inaplicable, las demás conservarán su plena validez. La falta de ejercicio por parte de Kinesis de algún derecho no constituye renuncia al mismo. Estos Términos, junto con la Política de Privacidad y las condiciones particulares de los módulos contratados, constituyen el acuerdo íntegro entre las partes respecto del uso de la Plataforma.</p>
+<p>Estos Términos entran en vigor a partir de su fecha de publicación y permanecerán vigentes hasta que sean sustituidos por una versión actualizada.</p>
+<p>Estos documentos fueron preparados como base de trabajo. Anthropic y Claude no constituyen un despacho legal y este material no sustituye asesoría jurídica profesional. Se solicita la revisión y validación de un abogado hondureño antes de su publicación oficial.</p>
+</main>
+<footer>
+  <p>Sofía · Términos y Condiciones de Uso</p>
+</footer>
+</div>
+</body>
+</html>
